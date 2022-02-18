@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Votes>
+  <Vote>
+    <CNIC>42201-7777777-7</CNIC>
+    <Position>President</Position>
+    <Candidate_ID>k073000</Candidate_ID>
+  </Vote>
+  <Vote>
+    <CNIC>42201-7777777-7</CNIC>
+    <Position>General Sercertary</Position>
+    <Candidate_ID>k060123</Candidate_ID>
+  </Vote>
+  <Vote>
+    <CNIC>42201-7777777-7</CNIC>
+    <Position>Vice President</Position>
+    <Candidate_ID>k071241</Candidate_ID>
+  </Vote>
+</Votes>

@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<Votes>
+  <Vote>
+    <CNIC>42201-4444444-4</CNIC>
+    <Position>President</Position>
+    <Candidate_ID>k050004</Candidate_ID>
+  </Vote>
+  <Vote>
+    <CNIC>42201-3456789-0</CNIC>
+    <Position>General Sercertary</Position>
+    <Candidate_ID>k030001</Candidate_ID>
+  </Vote>
+  <Vote>
+    <CNIC>42201-3456789-0</CNIC>
+    <Position>President</Position>
+    <Candidate_ID>k030001</Candidate_ID>
+  </Vote>
+  <Vote>
+    <CNIC>42201-4444444-4</CNIC>
+    <Position>General Sercertary</Position>
+    <Candidate_ID>k030002</Candidate_ID>
+  </Vote>
+  <Vote>
+    <CNIC>42201-4444444-4</CNIC>
+    <Position>Vice President</Position>
+    <Candidate_ID>k040003</Candidate_ID>
+  </Vote>
+</Votes>

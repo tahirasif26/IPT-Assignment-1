@@ -1,0 +1,76 @@
+﻿@{
+    ViewBag.Title = "Home Page";
+}
+
+    <style>
+        table {
+            font-family: arial, sans-serif;
+            border-collapse: collapse;
+            width: 100%;
+        }
+
+        td, th {
+            border: 1px solid;
+            border-color: black;
+            text-align: left;
+            padding: 8px;
+        }
+    </style>
+
+    <div class="row">
+        <div class="col-md-4">
+            <p>President</p>
+            <table>
+                <tr>
+                    <th>Candidate Name</th>
+                    <th>Votes</th>
+                </tr>
+                @foreach (var i in Model.pre)
+                {
+                    <tr>
+                        <td>@i.Key</td>
+                        <td>@i.Value</td>
+                    </tr>
+                }
+            </table>
+        </div>
+        <div class="col-md-4">
+            <p>Vice President</p>
+            <table>
+                <tr>
+                    <th>Candidate Name</th>
+                    <th>Votes</th>
+                </tr>
+                @foreach (var i in Model.vpre)
+                {
+                    <tr>
+                        <td>@i.Key</td>
+                        <td>@i.Value</td>
+                    </tr>
+                }
+
+            </table>
+        </div>
+        <div class="col-md-4">
+            <p>General Secretary</p>
+            <table>
+                <tr>
+                    <th>Candidate Name</th>
+                    <th>Votes</th>
+                </tr>
+                @foreach (var i in Model.gensec)
+                {
+                    <tr>
+                        <td>@i.Key</td>
+                        <td>@i.Value</td>
+                    </tr>
+                }
+
+            </table>
+        </div>
+    </div>
+
+<script type="text/javascript">setTimeout(function () {
+      location.reload();
+}, 5*60*1000);
+</script>
